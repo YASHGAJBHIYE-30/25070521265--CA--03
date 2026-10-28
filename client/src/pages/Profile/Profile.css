@@ -1,0 +1,96 @@
+.profile-page {
+  padding-top: calc(var(--navbar-height) + var(--space-8));
+  padding-bottom: var(--space-16);
+  min-height: 100vh;
+}
+
+.profile-container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  margin-bottom: var(--space-8);
+}
+
+.profile-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-text);
+}
+
+.profile-subtitle {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-1);
+}
+
+.profile-card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+/* Avatar Header Block */
+.profile-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.profile-avatar-large {
+  width: 76px;
+  height: 76px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  box-shadow: var(--shadow-md);
+  border: 3px solid var(--color-bg);
+}
+
+.profile-avatar-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-avatar-name {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.profile-avatar-email {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Sections */
+.profile-section-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.profile-separator {
+  height: 1px;
+  background-color: var(--color-border);
+  margin: var(--space-2) 0;
+}
